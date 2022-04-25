@@ -1,0 +1,79 @@
+.container {
+  width: 35vw;
+  min-height: 50vh;
+  background-color: #fcf7f7;
+  border-radius: 10px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #4527a0;
+  color: white;
+  width: 70%;
+  margin-left: 15%;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+input {
+  text-align: center;
+  height: 30px;
+  top: 10px;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 2px solid #8566aa;
+  outline: none;
+}
+.add_btn {
+  display: inline-block;
+  margin-left: 35px;
+  padding: 15px 30px;
+  outline: none;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #4527a0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+  letter-spacing: 2px;
+}
+.add_btn:hover {
+  background-color: #28c96f;
+}
+.todoList {
+  list-style: none;
+}
+.todo_list_itam {
+  margin-right: 105px;
+  margin-top: 10px;
+}
+span {
+  font-size: 18px;
+  font-weight: 600;
+}
+.Edit_btn,
+.delte_btn {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 5px 15px;
+  outline: none;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #4527a0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+.Edit_btn:hover {
+  background-color: #00695c;
+}
+.delte_btn:hover {
+  background-color: #f03232;
+}
